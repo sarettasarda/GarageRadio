@@ -1,0 +1,100 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    tools:context="com.garageradio.app.mainpage.MainActivity"
+    android:background="@drawable/background">
+
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:padding="8dp"
+        android:gravity="center|center_vertical|center_horizontal">
+
+        <WebView
+            android:layout_width="fill_parent"
+            android:layout_height="250dp"
+            android:id="@+id/chatView"
+            android:focusable="true"
+            android:focusableInTouchMode="true"
+            android:clickable="false" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=""
+            android:id="@+id/titleTextView"
+            android:gravity="center_vertical|center_horizontal"
+            android:textColor="#ffffff"
+            android:background="#000000"
+            android:textSize="15sp"
+            android:textStyle="bold"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginBottom="10dp"
+            android:layout_marginTop="10dp"
+            android:padding="5dp" />
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:layout_marginTop="10dp">
+
+            <Button
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:background="@drawable/roundbackground"
+                android:id="@+id/button"
+                android:onClick="onPalimpsestButtonClicked"
+                android:layout_marginRight="10dp" />
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center_horizontal"
+                android:layout_marginBottom="10dp">
+
+                <Button
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:background="@drawable/button_play"
+                    android:id="@+id/button_play"
+                    android:layout_gravity="bottom"
+                    android:onClick="onPlayButtonClicked"
+                    android:layout_marginRight="10dp" />
+
+                <Button
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:background="@drawable/button_quit"
+                    android:id="@+id/button_quit"
+                    android:onClick="onQuitButtonClicked"
+                    android:layout_marginLeft="10dp" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:gravity="right">
+
+            <Button
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:id="@+id/button2"
+                android:background="@drawable/logo"
+                android:clickable="true"
+                android:gravity="right"
+                android:onClick="onCopyrightButtonClicked" />
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>
