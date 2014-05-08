@@ -9,6 +9,7 @@ https://play.google.com/store/apps/details?id=com.garageradio.app
 Credits
 =============
 Developed by Sara Craba (sarettasarda)
+
 External Android Library: Jsoup (jsoup.org)
 
 License
