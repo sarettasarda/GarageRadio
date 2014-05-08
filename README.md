@@ -2,6 +2,12 @@ Garage Radio
 =============
 "Garage Radio" is a playstore available android Application, here the entire code.
 
+Uses
+=============
+Garage Radio can be used to understand how to manage a MediaPlayer Android class and how to use jsoup library:
+- MediaPlayer class can be used to control playback of audio/video files and streams; in com.garageradio.app.mainpage.MainActivity there is a easy sample to understend how to use it. 
+- jsoup is a Java library for working with real-world HTML. It provides a very convenient API for extracting and manipulating data, using the best of DOM, CSS, and jquery-like methods; in com.garageradio.app.palimpsest.DownloadPalimpsest there is a example to parse a html table
+
 Playstore link
 =============
 https://play.google.com/store/apps/details?id=com.garageradio.app
@@ -10,7 +16,7 @@ Credits
 =============
 Developed by Sara Craba (sarettasarda)
 
-External Android Library: Jsoup (jsoup.org)
+External Android Library: jsoup (jsoup.org)
 
 License
 =============
