@@ -1,10 +1,6 @@
 <menu xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     tools:context=".MainActivity" >
-    <item android:id="@+id/action_palimpsest"
-        android:title="@string/action_palimpsest"
-        android:orderInCategory="100"
-        android:showAsAction="never" />
     <item android:id="@+id/action_credits"
         android:title="@string/action_credits"
         android:orderInCategory="100"

@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="app_name">Garage Radio</string>
-    <string name="hello_world">Hello world!</string>
-    <string name="action_settings">Settings</string>
-    <string name="selezione_musicale">Selezione Musicale</string>
+    <string name="action_palimpsest">Palinsesto</string>
+    <string name="action_credits">Crediti</string>
+    <string name="dialog_credits_name">Questa applicazione e\' stata creata da Sara Craba</string>
+    <string name="dialog_website">Visita saracraba.com</string>
+    <string name="dialog_close">Chiudi</string>
 </resources>
